@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import fire from "./fire";
+import fire from "./Components/Fire/fire";
 import "./App.css";
 
-import Hero from "./Hero";
-import Login from "./Login";
+import Hero from "./Components/Hero/Hero";
+import Login from "./Components/Login/Login";
 
 const App = () => {
   const [user, setUser] = useState("");

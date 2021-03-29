@@ -1,4 +1,5 @@
 import React from "react";
+import '../Hero/Hero.css'
 
 const Hero = ({ handleLogout }) => {
   return (
@@ -7,7 +8,10 @@ const Hero = ({ handleLogout }) => {
         <h2>ALBYRK</h2>
         <button >Projects</button>
         <button onClick={handleLogout}>Logout</button>
-      </nav>
+      </nav> 
+      <main>
+        <h3>Under Construction</h3>
+      </main> 
     </div>
   );
 };
